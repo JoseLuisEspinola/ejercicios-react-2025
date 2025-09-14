@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #e3f2fd;
+  border-bottom: 1px solid #90caf9;
+  border-radius: 8px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #1976d2;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Medias Query */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header p {
+    font-size: 0.9rem;
+  }
+
+  .header {
+    padding: 15px;
+  }
+}

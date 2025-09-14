@@ -1,0 +1,12 @@
+ #contacto {
+    text-align: center;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-top: 1px solid #ccc;
+    font-size: 0.9rem;
+}
+
+.contacto-email {
+    color: cadetblue;
+    font-size: 1rem;
+}

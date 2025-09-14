@@ -1,0 +1,4 @@
+.main-container {
+    margin-top: 80px; /* espacio para que no tape el nav fijo */
+    padding: 20px;
+}
