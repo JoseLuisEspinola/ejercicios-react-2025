@@ -1,6 +1,6 @@
 import './ProductList.css';
 
-function ProductList({ carrito, setCarrito }) {
+function ProductList({ setCarrito }) {
   const productos = [
     { id: 1, nombre: 'Mouse', precio: 9000 },
     { id: 2, nombre: 'Teclado', precio: 35000 },
@@ -11,7 +11,7 @@ function ProductList({ carrito, setCarrito }) {
   ];
 
   const agregarAlCarrito = (producto) => {
-    setCarrito([...carrito, producto]);
+  setCarrito(prev => [...prev, { ...producto }]);
   };
 
   return (

@@ -5,11 +5,9 @@ function Cart({ carrito, setCarrito }) {
     setCarrito([]);
   };
 
-  const total = carrito.reduce((acc, prod) => {
-    const precio = parseFloat(prod?.precio);
-    return acc + (isNaN(precio) ? 0 : precio);
-  }, 0);
+  const total = carrito.reduce((acc, prod) => acc + prod.precio, 0);
 
+  console.log('Total calculado:', total);
 
   return (
     <section className="cart-container">

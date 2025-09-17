@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Header from './Header';
 import Nav from './Nav';
 import Main from './Main';
@@ -7,8 +6,7 @@ import ProductList from './ProductList';
 import Cart from './Cart';
 import Contacto from './Contacto';
 
-function Clase04Ejer01() {
-  const [carrito, setCarrito] = useState([]);
+function Clase04Ejer01({ carrito, setCarrito }) {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column'}}>

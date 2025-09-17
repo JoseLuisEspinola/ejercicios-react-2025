@@ -24,6 +24,11 @@
   width: 50%;
 }
 
+@media (max-width: 600px) {
+    .cart-container ul {
+        width: 80%;
+    }
+}
 .cart-container .carrito-li {
   padding: 8px;
   border-bottom: 1px solid #e0e0e0;
@@ -33,6 +38,7 @@
 
 p.carrito-total {
   font-weight: 600;
+  color: #307502;
   font-size: 18px;
   display: flex;
   justify-content: center;
